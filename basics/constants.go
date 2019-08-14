@@ -1,4 +1,4 @@
-package main
+package basics
 
 import "fmt"
 import "math"
@@ -19,5 +19,5 @@ func main() {
 
 	// but n is given a type in context
 	fmt.Println(math.Sin(n))
-	
+
 }

@@ -1,4 +1,4 @@
-package main
+package basics
 
 import "fmt"
 
@@ -30,5 +30,4 @@ func main() {
 		fmt.Println(n)
 	}
 
-	
 }

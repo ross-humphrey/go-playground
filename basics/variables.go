@@ -1,4 +1,4 @@
-package main
+package basics
 
 import "fmt"
 
@@ -8,7 +8,7 @@ func main() {
 	fmt.Println(a)
 
 	// type can be declared
-	var b,c int = 1, 2
+	var b, c = 1, 2
 	fmt.Println(b, c)
 
 	// type is inferred
