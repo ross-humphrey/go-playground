@@ -14,5 +14,6 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
-# IDE settings
-/.idea
+# idea - ignores
+**/.idea/workspace.xml
+**/.idea/tasks.xml
