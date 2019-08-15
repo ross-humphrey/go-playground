@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func add(x int) int {
-	fmt.Println("executing add")
+func addLazy(x int) int {
+	fmt.Println("executing addLazy")
 	return x + x
 }
 
@@ -13,8 +13,8 @@ func multiply(x int) int {
 }
 
 func main() {
-	fmt.Println(addOrMultiply(true, add, multiply, 4))
-	fmt.Println(addOrMultiply(false, add, multiply, 4))
+	fmt.Println(addOrMultiply(true, addLazy, multiply, 4))
+	fmt.Println(addOrMultiply(false, addLazy, multiply, 4))
 
 }
 

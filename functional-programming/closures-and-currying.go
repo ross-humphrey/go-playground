@@ -13,9 +13,17 @@ func add(x int) func(y int) int {
 	}
 }
 
+func intSeq() func() int {
+	i := 0 // function closes over the variable i to form a closure
+	return func() int {
+		i++
+		return i
+	}
+}
+
 func main() {
 
-	// we are currying the add method to create more variations
+	// we are currying the addLazy method to create more variations
 	var add10 = add(10)
 	var add20 = add(20)
 	var add30 = add(30)
@@ -24,4 +32,13 @@ func main() {
 	fmt.Println(add20(5))
 	fmt.Println(add30(5))
 
+	nextInt := intSeq()
+
+	fmt.Println(nextInt())
+	fmt.Println(nextInt())
+	fmt.Println(nextInt())
+
+	newInts := intSeq() // demonstrating the i is closed on for each function call
+	fmt.Println(newInts())
+	fmt.Println(newInts())
 }
