@@ -15,5 +15,4 @@
 # vendor/
 
 # idea - ignores
-**/.idea/workspace.xml
-**/.idea/tasks.xml
+.idea/
