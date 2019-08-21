@@ -4,7 +4,7 @@ import "time"
 import "fmt"
 
 // select lets you wait on multiple channel operations.
-// allowing combination of goroutines and channels.
+// allowing combination of goroutines and channels
 
 func main() {
 
