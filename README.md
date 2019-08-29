@@ -18,8 +18,16 @@ Run the following:
 
 `go build <file_name.go>`
 
+### How do I run tests
+Navigate to a directory with tests and run:
+_'go test'_
+or for verbose logging:
+_'go test -v'_ 
+
+
 ##### References
 This project is a collection of different code snippets from a bunch of different sites.
 > https://gobyexample.com/
 > https://dev.to/deepu105/7-easy-functional-programming-techniques-in-go-3idp
+> https://blog.alexellis.io/golang-writing-unit-tests/
 
