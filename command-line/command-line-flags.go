@@ -1,4 +1,4 @@
-package main
+package command_line
 
 /*
 Common way to specify options for command-line programs

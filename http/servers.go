@@ -1,4 +1,4 @@
-package main
+package http
 
 /**
 Create HTTP server using net/http package

@@ -1,4 +1,4 @@
-package main
+package command_line
 
 /**
 subcommands - each have their own set of flags - like go build and go get
