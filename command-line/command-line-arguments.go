@@ -1,4 +1,4 @@
-package main
+package command_line
 
 /**
 Command line arguments are a common way to parameterize execution of programs.

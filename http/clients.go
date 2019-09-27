@@ -1,4 +1,4 @@
-package main
+package http
 
 /*
 Support for HTTP clients is included out the box in the net/http packages
