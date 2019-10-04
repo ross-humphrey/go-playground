@@ -30,6 +30,7 @@ This project is a collection of different code snippets from a bunch of differen
 > https://gobyexample.com/
 > https://dev.to/deepu105/7-easy-functional-programming-techniques-in-go-3idp
 > https://blog.alexellis.io/golang-writing-unit-tests/
+> https://www.ru-rocker.com/2017/07/10/how-to-unit-test-and-mocking-a-function-in-go/
 
 List of topics covered:
 
@@ -149,15 +150,15 @@ URL Parsing
 
 Reading Files
 
-Writing Files
+~~Writing Files~~
 
-Line Filters
+~~Line Filters~~
 
 File Paths
 
 Directories
 
-Temporary Files and Directories
+~~Temporary Files and Directories~~
 
 ~~Testing~~
 
