@@ -68,7 +68,7 @@ List of topics covered:
 
 ~~Pointers~~
 
-Structs~~
+~~Structs~~
 
 ~~Methods~~
 
@@ -132,7 +132,7 @@ JSON
 
 XML
 
-Time
+~~Time~~
 
 ~~Epoch~~
 
