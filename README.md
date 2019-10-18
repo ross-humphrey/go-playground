@@ -154,7 +154,7 @@ Reading Files
 
 ~~Line Filters~~
 
-File Paths
+~~File Paths~~
 
 Directories
 
